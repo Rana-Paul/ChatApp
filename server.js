@@ -3,7 +3,7 @@ import {createServer}from "http"
 import { Server } from 'socket.io';
 import { dirname } from "path";
 import { fileURLToPath } from "url";
-import onSocket from "../nodeServer/socket.js";
+import onSocket from "./socket.js";
 
 const port = process.env.PORT || 8080;
 
